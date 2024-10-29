@@ -13,11 +13,11 @@
             public String getMain() {
                 logger.info(">>>> We are at the main endpoint.");
                 return "main";
-                }```
+                }
     * ```@GetMapping("/main")
             public String getMain(Model model, User user){
                 logger.info(">>>> We are at the main endpoint.");
                 model.addAttribute("user", user.getUserId());
                 return "main";
-                }```
+                }
 
